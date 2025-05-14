@@ -1,12 +1,11 @@
 /* HeaderComp.jsx */
 #headerComp{
-    background-color: rgba(0,0,0,0);display: inline-flex; width: 100%;
+    background-color: rgba(0,0,0,0);display: inline-flex;
+    min-width: 90%;
     justify-content: space-between;
-    margin-top: 10px;
-}
+    margin-top: 3em ; }
 #headerComp> h1{
     color: rgb(243 97 0);
-    margin-right: 10%;
 }
 #headerComp> strong{
     color: white;
@@ -64,18 +63,23 @@ font-size: 2rem;
     color: salmon;
 }
 
-.showCase{display:flex;flex-direction: column; margin: 1.5rem;align-items: center;}
+.showCase{display:flex;flex-direction: column; margin: 1.5rem;align-items: center;
+    background-color: black;
+    text-align: center;
+}
 
 .showCase> img{
     width: 100px;
     margin-bottom: 1.5rem;
+}
+.showCase>article{
+text-align: justify;
 }
 #flexShowCase{
     display: flex;
     justify-content: space-evenly;
 }
 #flexShowCase>div{
-    background-color: black;
     padding: 5rem  2rem 2rem 2rem  ;
     text-align: justify;
     font: xx-small;
@@ -117,8 +121,7 @@ background-size:100%;height: 100%;}
     font-size: larger;
 }
 .rowA,.rowB{display: flex; ; width: 100%;overflow: hidden;vertical-align:top;}
-.rowA>img,.rowB>img{
-padding-bottom: 10px ; 
+.rowA>img,.rowB>img{ 
     height: 20rem;
     width: 100%;
 }
