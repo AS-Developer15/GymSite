@@ -1,0 +1,143 @@
+/* HeaderComp.jsx */
+#headerComp{
+    background-color: rgba(0,0,0,0);display: inline-flex; width: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+#headerComp> h1{
+    color: rgb(243 97 0);
+    margin-right: 10%;
+}
+#headerComp> strong{
+    color: white;
+}
+
+
+
+
+
+
+/* GetFit.jsx */
+.getFit{
+    background-image: url("https://themewagon.github.io/gymlife/img/hero/hero-1.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    height: 740px;
+text-transform: uppercase;
+color: white; text-align: left;
+word-spacing: 0.15em;
+
+}
+#textContGFit{padding: 10% 0% 4em 60% ;}
+#textContGFit>span{
+font-size: 2rem;
+}
+#textContGFit>h1{
+    font-size: 5rem;
+    line-height: 1em;
+    padding-bottom: 14px;
+    margin-bottom: 10px;
+}
+#ginfoGFit{
+    background-color: rgb(243 97 0);
+    padding: 0.25em 0.5em 0.25em 0.5em ;
+    font-size:1rem;
+}
+
+
+
+
+
+
+/* Choose Us */
+#chooseUs{padding: 2rem 0 2rem 0;}
+#chooseUsHead{text-transform: uppercase;
+    font-size: xx-large;
+    line-height:2rem;
+    text-align: center;
+}
+#chooseUsHead >span{
+    font-size: x-large;
+}
+#chooseUsHead >h1 {
+    font-size: xx-large;
+    color: salmon;
+}
+
+.showCase{display:flex;flex-direction: column; margin: 1.5rem;align-items: center;}
+
+.showCase> img{
+    width: 100px;
+    margin-bottom: 1.5rem;
+}
+#flexShowCase{
+    display: flex;
+    justify-content: space-evenly;
+}
+#flexShowCase>div{
+    background-color: black;
+    padding: 5rem  2rem 2rem 2rem  ;
+    text-align: justify;
+    font: xx-small;
+}
+
+
+
+
+
+
+/* Registeration.jsx */
+#registeration{
+    background-image: url("https://themewagon.github.io/gymlife/img/banner-bg.jpg");
+    height: max-content;
+    text-transform: uppercase;
+}
+#textContRegisteration>span{
+    color: grey;
+    font-size:xx-large ;
+}
+#appointmentLink{background-color:#00000000;border: 2px solid salmon;padding: 0.5rem;
+background-size:100%;height: 100%;}
+
+#textContRegisteration{
+    padding: 10%;
+    line-height: 300%;
+}
+
+/* Pricing Comp */
+
+
+
+/* Display Images */
+#imgDisplay>h1{
+    color: salmon;
+    text-transform: uppercase;
+    text-align: center;
+
+    font-size: larger;
+}
+.rowA,.rowB{display: flex; ; width: 100%;overflow: hidden;vertical-align:top;}
+.rowA>img,.rowB>img{
+padding-bottom: 10px ; 
+    height: 20rem;
+    width: 100%;
+}
+
+
+
+/* Footer Component */
+#footerContainer{
+    background-color:black;display: flex; justify-content: space-between;
+    padding: 2em 2em 0em ;
+}
+.footerDivComp{
+    width: 17.5%;
+}
+footer>article{
+    background-color: rgba(1, 1, 1, 0.828);
+    text-align: center;
+    text-transform: capitalize;
+    font-size: larger;
+}
+
+
